@@ -1,0 +1,152 @@
+.Why_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.heading {
+  font-family: Cinzel;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.para {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.cards > :nth-child(odd) {
+  background-color: rgba(133, 185, 210, 0.8);
+}
+.cards > :nth-child(even) {
+  background-color: rgba(179, 211, 228, 0.7);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 240px;
+  padding: 0 15px;
+}
+
+.card_heading {
+  font-family: Cinzel;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card_para {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .Why_us {
+    margin-top: 50px;
+  }
+
+  .heading {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .para {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 80%;
+  }
+
+  .cards {
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 300px;
+    height: 200px;
+    padding: 0 15px;
+  }
+
+  .card_heading {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .card_para {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Why_us {
+    margin-top: 30px;
+  }
+
+  .heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .para {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 80%;
+  }
+
+  .cards {
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .card {
+    width: 300px;
+    height: 170px;
+    padding: 0 15px;
+  }
+
+  .card_heading {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+
+  .card_para {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,140 @@
+.department {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.heading {
+  font-family: Cinzel;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.para {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.imgs {
+  width: 80%;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+}
+
+.img_para {
+  font-family: Cinzel;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(64, 82, 106, 1);
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .imgs {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .department {
+    margin-top: 50px;
+  }
+
+  .heading {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .para {
+    font-size: 15px;
+    width: 85%;
+    margin-bottom: 30px;
+  }
+
+  .imgs {
+    width: 90%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .img_para {
+    font-family: Cinzel;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .department {
+    margin-top: 30px;
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .para {
+    font-size: 12px;
+    width: 85%;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .imgs {
+    width: 94%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 150px;
+    height: 170px;
+  }
+
+  .img_para {
+    font-family: Cinzel;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}

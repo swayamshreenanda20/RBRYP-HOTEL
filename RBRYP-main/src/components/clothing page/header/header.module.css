@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    margin-top: 0;
+    box-shadow: 0px 5px 10px rgba(64, 82, 106, 1);
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 5;
+    color: var(--text-color);
+  }
+  
+  .lists {
+    list-style: none;
+    font-family: Cinzel;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .list {
+    cursor: pointer;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .logo {
+    width: 95px;
+    height: 65px;
+    cursor: pointer;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 5;
+  }
+  
+  .btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: Cinzel;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .header_mbl {
+    display: none;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .lists {
+      font-size: 13px;
+    }
+  
+    .logo {
+      width: 65px;
+      height: 55px;
+    }
+  
+    .btn {
+      font-size: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .header {
+      display: none;
+    }
+  
+    .nav_lists {
+      display: none;
+    }
+  
+    .header_mbl {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 20px;
+      background-color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+      margin-top: 0;
+      box-shadow: 0px 5px 10px rgba(64, 82, 106, 1);
+    }
+  
+    .mbl_logo_img {
+      width: 55px;
+      height: 45px;
+      cursor: pointer;
+    }
+  
+    .mbl_menu_lists {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      background-color: rgba(64, 82, 106, 1);
+      color: rgba(28, 65, 115, 1);
+      position: absolute;
+      top: 55px;
+      padding: 0 0 10px 0;
+      left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .mbl_lists {
+      list-style-type: none;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      color: #ffffff;
+      padding: 6px 20px;
+    }
+  
+    .mbl_list {
+      font-family: Cinzel;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 19px;
+      cursor: pointer;
+    }
+  
+    .menu_mbl {
+      display: flex;
+      color: rgba(28, 65, 115, 1);
+    }
+  }
+  
+
+  

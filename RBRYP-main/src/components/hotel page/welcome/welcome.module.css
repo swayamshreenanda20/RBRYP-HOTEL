@@ -1,0 +1,198 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    margin-top: 60px;
+  }
+  
+  .para {
+    font-family: Courgette;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(64, 82, 106, 1);
+  }
+  
+  .heading {
+    font-family: Cinzel;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 25px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 6;
+  }
+  
+  .content_para {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+  }
+  
+  .btn {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    border: none;
+    outline: none;
+    padding: 12px 50px;
+    background-color: rgba(64, 82, 106, 1);
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+    border-radius: 30px;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 6;
+    position: relative;
+  }
+  
+  .welcome_img {
+    position: absolute;
+  }
+  
+  .welcome_img_2 {
+    position: absolute;
+    left: 10px;
+    top: -145px;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .content {
+      gap: 40px;
+      margin-top: 30px;
+    }
+  
+    .welcome_img {
+      width: 400px;
+      height: 270px;
+    }
+    .welcome_img_2 {
+      width: 400px;
+      height: 270px;
+      left: 50px;
+      top: -105px;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .welcome {
+      padding: 20px 40px;
+      margin-top: 40px;
+    }
+  
+    .para {
+      font-size: 17px;
+      margin-bottom: 0;
+    }
+  
+    .heading {
+      font-size: 24px;
+      line-height: 35px;
+      margin-top: 10px;
+    }
+  
+    .content {
+      gap: 30px;
+      margin-top: 20px;
+    }
+  
+    .content_para {
+      font-size: 13px;
+      line-height: 20px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 10px 35px;
+      margin-top: 15px;
+    }
+  
+    .welcome_img {
+      width: 300px;
+      height: 200px;
+    }
+  
+    .welcome_img_2 {
+      width: 300px;
+      height: 200px;
+      left: 50px;
+      top: -65px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .welcome {
+      padding: 20px 30px;
+      margin-top: 30px;
+    }
+  
+    .para {
+      font-size: 14px;
+    }
+  
+    .heading {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 27px;
+    }
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-top: 10px;
+    }
+  
+    .content_para {
+      font-family: sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+  
+    .btn {
+      font-family: sans-serif;
+      font-size: 11px;
+      padding: 8px 60px;
+      background-color: rgba(28, 65, 115, 1);
+      text-align: left;
+      color: #fff;
+      margin-top: 10px;
+      border-radius: 30px;
+      margin-bottom: 30px;
+    }
+    .welcome_img {
+      position: relative;
+      width: 300px;
+      height: 160px;
+    }
+    .welcome_img_2 {
+      display: none;
+    }
+  }
+  

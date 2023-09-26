@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+code {
+  font-family: "Cinzel", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(133, 185, 210, 1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(64, 82, 106, 1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(64, 82, 106, 1);
+}

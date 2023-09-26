@@ -1,0 +1,94 @@
+/* Storegallery.module.css */
+
+.storeGallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .storeimg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .buttonContainer{
+background-color: none;
+  }
+  
+  .navButton {
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+   
+    
+  }
+  
+  .navButton:first-child {
+    left: 50;
+  }
+  
+  .navButton:last-child {
+    right: 0;
+  }
+  
+
+  @media screen and (max-width: 650px){
+
+    .storeGallery {
+        width:800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .imageContainer {
+        position: relative;
+      }
+      
+      .storeimg {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      .buttonContainer{
+    background-color: none;
+      }
+      
+      .navButton {
+        position: absolute;
+        top: 50%;
+    
+        transform: translateY(-50%);
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 15px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+       
+        
+      }
+      
+      .navButton:first-child {
+        left: 50;
+      }
+      
+      .navButton:last-child {
+        right: 0;
+      }
+}
+  
+  
