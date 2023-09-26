@@ -8,6 +8,8 @@
 
 ![image](https://github.com/swayamshreenanda20/RBRYP-HOTEL/assets/118578089/c3e08123-03f0-4392-8282-4ed350093dc4)
 ![image](https://github.com/swayamshreenanda20/RBRYP-HOTEL/assets/118578089/149150f1-c0f6-455d-9f80-49bc5fa57b0a)
+![image](https://github.com/swayamshreenanda20/RBRYP-HOTEL/assets/118578089/86b9651e-7386-4d5f-879b-791a6a56b9a9)
+
 ![image](https://github.com/swayamshreenanda20/RBRYP-HOTEL/assets/118578089/ebba13fc-4efc-4a04-9137-1e03a8ead58e)
 ![image](https://github.com/swayamshreenanda20/RBRYP-HOTEL/assets/118578089/8f9f10c5-92a7-4eaa-a6a4-19d957c41148)
 ![image](https://github.com/swayamshreenanda20/RBRYP-HOTEL/assets/118578089/ee83a213-3f69-44d5-bc99-f140430256f7)
